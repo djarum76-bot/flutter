@@ -9,7 +9,7 @@ void main() {
   runApp(
     GetMaterialApp(
       title: "Application",
-      initialRoute: Routes.HOME,
+      initialRoute: Routes.TANYAUSTADZ,
       getPages: AppPages.routes,
       theme: ThemeData(
         primarySwatch: createMaterialColor(Color(0xFF1DAD9B))

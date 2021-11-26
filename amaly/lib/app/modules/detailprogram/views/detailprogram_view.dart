@@ -152,7 +152,6 @@ class DetailprogramView extends GetView<DetailprogramController> {
                                     SizedBox(height: 30,),
                                     Container(
                                       padding: EdgeInsets.symmetric(horizontal: 30, vertical: 20),
-                                      height: Get.height * 0.25,
                                       decoration: BoxDecoration(
                                           color: Colors.grey.withOpacity(0.3),
                                           borderRadius: BorderRadius.circular(20)
@@ -198,7 +197,6 @@ class DetailprogramView extends GetView<DetailprogramController> {
                                     SizedBox(height: 20,),
                                     Container(
                                       padding: EdgeInsets.symmetric(horizontal: 30, vertical: 20),
-                                      height: Get.height * 0.25,
                                       decoration: BoxDecoration(
                                           color: Colors.grey.withOpacity(0.3),
                                           borderRadius: BorderRadius.circular(20)

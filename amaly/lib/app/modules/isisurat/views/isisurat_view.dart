@@ -28,12 +28,12 @@ class IsisuratView extends GetView<IsisuratController> {
                     itemBuilder: (context, index){
                       return Container(
                         width: Get.width,
-                        height:  Get.height * 0.2,
                         margin: EdgeInsets.symmetric(vertical: 20),
                         decoration: BoxDecoration(
                             borderRadius: BorderRadius.circular(20)
                         ),
                         child: Column(
+                          mainAxisSize: MainAxisSize.min,
                           children: [
                             Container(
                               height:  Get.height * 0.3 * 0.3,
@@ -83,7 +83,7 @@ class IsisuratView extends GetView<IsisuratController> {
                               ),
                             ),
                             SizedBox(height: 25,),
-                            Expanded(
+                            Flexible(
                                 child: Container(
                                   padding: EdgeInsets.symmetric(horizontal: 20),
                                   child: Column(
@@ -101,6 +101,7 @@ class IsisuratView extends GetView<IsisuratController> {
                                         child: Text(
                                           "Lorem Ipsum Lorem Ipsum",
                                           style: GoogleFonts.inter(fontWeight: FontWeight.w400, fontSize: 14, color: Color(0xFF333333)),
+                                          textAlign: TextAlign.justify,
                                         ),
                                       )
                                     ],
