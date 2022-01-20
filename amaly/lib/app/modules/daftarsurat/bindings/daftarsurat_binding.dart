@@ -6,7 +6,8 @@ class DaftarsuratBinding extends Bindings {
   @override
   void dependencies() {
     Get.lazyPut<DaftarsuratController>(
-      () => DaftarsuratController(),
+          () => DaftarsuratController(),
     );
+    // Get.put(DaftarsuratController());
   }
 }
