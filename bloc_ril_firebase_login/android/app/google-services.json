@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "585386033713",
+    "project_id": "bloc-ril-firebase",
+    "storage_bucket": "bloc-ril-firebase.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:585386033713:android:b6f91ee21a0f73d7cb8b10",
+        "android_client_info": {
+          "package_name": "com.example.bloc_ril_firebase_login"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "585386033713-k7k5ek65h4akk1htkgeqmhbractkh7fp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.bloc_ril_firebase_login",
+            "certificate_hash": "ac6775975ec05e32af85617004ce9a7d4a9808c6"
+          }
+        },
+        {
+          "client_id": "585386033713-dlobp6sb9hnqk7ceu9bborgroq37ej70.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAGyvXrLkOMRgpyP5H4yqtRv4JVrxBt4Lw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "585386033713-dlobp6sb9hnqk7ceu9bborgroq37ej70.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

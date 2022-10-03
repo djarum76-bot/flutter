@@ -1,0 +1,26 @@
+name: mask
+version: 1.0.0+1
+publish_to: none
+description: A new Flutter project.
+environment: 
+  sdk: '>=2.16.2 <3.0.0'
+
+dependencies: 
+  cupertino_icons: ^1.0.2
+  google_fonts: 2.3.1
+  image_picker: 0.8.5
+  tflite: 1.1.2
+  get: 4.6.1
+  flutter: 
+    sdk: flutter
+
+dev_dependencies: 
+  flutter_lints: ^1.0.0
+  flutter_test: 
+    sdk: flutter
+
+flutter:
+  assets:
+    - assets/
+  uses-material-design: true
+

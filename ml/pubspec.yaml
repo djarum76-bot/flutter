@@ -1,0 +1,26 @@
+name: ml
+version: 1.0.0+1
+publish_to: none
+description: A new Flutter project.
+environment: 
+  sdk: '>=2.16.2 <3.0.0'
+
+dependencies: 
+  cupertino_icons: ^1.0.2
+  google_ml_kit: 0.8.0
+  firebase_core: ^1.15.0
+  camera: 0.9.4+20
+  flutter_cube: ^0.1.1
+  flutter: 
+    sdk: flutter
+
+dev_dependencies: 
+  flutter_lints: ^1.0.0
+  flutter_test: 
+    sdk: flutter
+
+flutter:
+  assets:
+    - asset/
+  uses-material-design: true
+

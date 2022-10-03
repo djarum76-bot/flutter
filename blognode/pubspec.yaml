@@ -1,0 +1,30 @@
+name: blognode
+version: 1.0.0+1
+publish_to: none
+description: A new Flutter project.
+environment: 
+  sdk: '>=2.15.0 <3.0.0'
+
+dependencies: 
+  cupertino_icons: ^1.0.2
+  get: 4.6.1
+  get_storage: 2.0.3
+  google_fonts: 2.2.0
+  dio: 4.0.4
+  curved_navigation_bar: 1.0.1
+  image_picker: 0.8.4+4
+  path: 1.8.0
+  http: 0.13.4
+  flutter: 
+    sdk: flutter
+
+dev_dependencies: 
+  flutter_lints: ^1.0.0
+  flutter_test: 
+    sdk: flutter
+
+flutter: 
+  assets: 
+    - asset/
+  uses-material-design: true
+
